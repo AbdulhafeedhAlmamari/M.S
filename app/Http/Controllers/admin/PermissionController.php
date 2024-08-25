@@ -6,8 +6,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Permission;
 use App\Models\Role;
-use Illuminate\Auth\Middleware\Authorize;
-use Illuminate\Validation\Rules\Can;
 
 class PermissionController extends Controller
 {
